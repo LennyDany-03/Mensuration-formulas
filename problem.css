@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Merienda-VariableFont_wght;
+    src: url(Fonts/Merienda/Merienda-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: EduAUVICWANTHand-VariableFont_wght;
+    src: url(Fonts/Edu_AU_VIC_WA_NT_Hand/EduAUVICWANTHand-VariableFont_wght.ttf);
+}
+body{
+    background-color: #101720;
+    background-image: url(Image/Dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+header{
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    
+    font-family: EduAUVICWANTHand-VariableFont_wght;
+}
+header a{
+    text-decoration: none;
+    color: aqua;
+}
+.navbar{
+    padding: 3px;
+
+}
+.navbar ul{
+    border: 2px solid;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #303A52;
+
+
+}
+
+.navbar li{
+    list-style-type: none;
+    float: left;
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+    font-size: 22px;
+
+}
+.navbar a:hover{
+    background-color:#202738;
+}
+.stuff h1{
+    text-align: center;
+    padding: 10px;
+    color: aqua;
+    border: 2px ridge;
+    height: auto;
+    width: 15em;
+    font-family: EduAUVICWANTHand-VariableFont_wght;
+}
+.stuff{
+    border: 2px solid;
+    height: 50em;
+    width: auto;
+    padding: 50px;
+    backdrop-filter:blur(10px);
+}
+.stuff.container li{
+    text-decoration: none;
+}
+.container{
+    height:auto ;
+    width: auto;
+    padding: 10px;
+    display:flex;
+    align-items:flex-start;
+    border: 2px solid;
+}
+.container ul{
+
+    padding: 2px;
+    overflow:visible;
+
+}
+.container li{
+    list-style-type: none;
+}
+.container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 100%;
+    text-decoration: none;
+    color: aqua;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    font-size: 22px;
+    font-family: EduAUVICWANTHand-VariableFont_wght;
+    font-weight: bold;
+    backdrop-filter: blur;
+    border-radius: 25px;
+
+}
+.container a:hover{
+    background-color: #202738;;
+}
+h1{
+    text-align: center;
+    font-family:Merienda-VariableFont_wght;
+    color: aqua;
+}
+.container p{
+    font-size: 22px;
+    padding: 20px;
+    font-family: Merienda-VariableFont_wght;
+    color: aqua;
+}

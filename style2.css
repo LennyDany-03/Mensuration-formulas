@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Merienda-VariableFont_wght;
+    src: url(Fonts/Merienda/Merienda-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: EduAUVICWANTHand-VariableFont_wght;
+    src: url(Fonts/Edu_AU_VIC_WA_NT_Hand/EduAUVICWANTHand-VariableFont_wght.ttf);
+}
+body{
+    background-color: #101720;
+    background-image: url(Image/Dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+header{
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    
+    font-family: EduAUVICWANTHand-VariableFont_wght;
+}
+header a{
+    text-decoration: none;
+    color: aqua;
+}
+.navbar{
+    padding: 3px;
+
+}
+.navbar ul{
+    border: 2px solid;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #303A52;
+
+
+}
+
+.navbar li{
+    list-style-type: none;
+    float: left;
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+    font-size: 22px;
+
+}
+.navbar a:hover{
+    background-color:#202738;
+}
+.square{
+    display: inline-block;
+    padding: 7em;
+    width: 100%;
+    height: 50em;
+}
+.square h1{
+    font-family:EduAUVICWANTHand-VariableFont_wght ;
+    color: aqua;
+    padding: 25px;
+}
+.square p{
+    font-family: Merienda-VariableFont_wght;
+    font-size: 26px;
+    color: aqua;
+}
+label{
+    color: aqua;
+    font-size: 32px;
+    font-family: Merienda-VariableFont_wght;
+}
+.square input{
+    padding: 15px;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color: aqua;
+    font-size: 26px;
+    font-family: Merienda-VariableFont_wght;
+}
+.square input::placeholder{
+    color: aqua;
+    font-size: 20px;
+    font-family: Merienda-VariableFont_wght;
+    text-align: center;
+}
+.square button{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: none;
+    color: aqua;
+    font-family: Merienda-VariableFont_wght;
+    text-align: center;
+    margin: 2em;
+    margin-left: 7em;
+}
+.square h2{
+    color: aqua;
+    font-family:Merienda-VariableFont_wght;
+    font-size: 32PX;
+    font-weight: bold;
+    padding: 25PX;
+}
+.stuff h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: aqua;
+    font-family: Merienda-VariableFont_wgh;
+}
